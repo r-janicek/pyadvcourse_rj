@@ -14,7 +14,7 @@ authors = [
     { email = "rado.janicek@gmail.com", name = "Rado Janicek" },
 ]
 dynamic = ["version"]
-dependencies = []
+dependencies = ['numpy']
 
 [tool.hatch.version]
 path = "src/pyadvcourse_rj/__init__.py"
