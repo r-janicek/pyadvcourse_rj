@@ -1,6 +1,6 @@
 # https://peps.python.org/pep-0517/
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 # https://peps.python.org/pep-0621/
@@ -17,7 +17,7 @@ dynamic = ["version"]
 dependencies = ['numpy']
 
 [tool.hatch.version]
-path = "src/pyadvcourse_rj/__init__.py"
+path = "vcs"
 
 [tool.hatch.build.targets.wheel]
 only-include = ["src"]
